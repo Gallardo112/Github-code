@@ -37,6 +37,10 @@ class computadora:
         if ram > 0:
             self.__ram = ram
 
+#Metodo aumentar ram
+def aumentar_ram(self, cantidad):
+        if cantidad > 0:
+            self.__ram += cantidad
 
 
    
