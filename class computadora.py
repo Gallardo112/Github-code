@@ -50,6 +50,11 @@ def rendimiento(self):
             return "Rendimiento medio"
         else:
             return "Bajo rendimiento"
+        
+#metodo mostrar informacion
+def info(self):
+        return f"ID: {self.__id}, Marca: {self.__marca}, Modelo: {self.__modelo}, Procesador: {self.__procesador}, RAM: {self.__ram}GB"
+
 
 
 
