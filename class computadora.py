@@ -55,10 +55,13 @@ def rendimiento(self):
 def info(self):
         return f"ID: {self.__id}, Marca: {self.__marca}, Modelo: {self.__modelo}, Procesador: {self.__procesador}, RAM: {self.__ram}GB"
 
+#prueba de la clase
+compu1 = computadora(1, "Dell", "XPS 15", "i7", 16)
 
+print(compu1.info())
+print(compu1.rendimiento())
 
+compu1.aumentar_ram(8)
 
+print(compu1.info())
 
-
-   
-    
