@@ -42,6 +42,18 @@ def aumentar_ram(self, cantidad):
         if cantidad > 0:
             self.__ram += cantidad
 
+#metodo redimiento
+def rendimiento(self):
+        if self.__procesador == "i7" and self.__ram >= 16:
+            return "Alto rendimiento"
+        elif self.__procesador == "i5" and self.__ram >= 8:
+            return "Rendimiento medio"
+        else:
+            return "Bajo rendimiento"
+
+
+
+
 
    
     
