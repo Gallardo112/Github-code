@@ -20,7 +20,24 @@ class computadora:
     def get_ram(self):
         return self.__ram
     
-    
+#Setters
+    def set_id(self, id):
+        self.__id = id
+
+    def set_marca(self, marca):
+        self.__marca = marca
+
+    def set_modelo(self, modelo):
+        self.__modelo = modelo
+
+    def set_procesador(self, procesador):
+        self.__procesador = procesador
+
+    def set_ram(self, ram):
+        if ram > 0:
+            self.__ram = ram
+
+
 
    
     
